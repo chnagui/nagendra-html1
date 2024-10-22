@@ -1,0 +1,144 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header marquee {
+    color: red;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: cursive;
+    background: #76b553;
+    padding: 5px 0;
+}
+
+.container {
+    width: 90%;
+    padding: 0 5%;
+    margin: 0 auto;
+}
+
+.top-section {
+    text-align: center;
+}
+
+.top-section h2 {
+    font-size: 30px;
+    color: darkorchid;
+}
+
+.top-section {
+    padding: 10px 0;
+}
+
+.image1,
+.image2,
+.image3,
+.image4,
+.image5 {
+    width: 170px;
+}
+
+.image1 img,
+.image2 img,
+.image3 img,
+.image4 img,
+.image5 img {
+    width: 100%;
+}
+
+.banner .row {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.content-form .form-img {
+    width: 30%;
+    margin: 0 auto;
+}
+
+.content-form .form-img img {
+    width: 100%;
+}
+.main-wraper .row {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.main-wraper .row {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    /* align-items: center; */
+    flex-wrap: wrap;
+}
+
+.content-slide, .content-form {
+    width: 300px;
+    border: 2px solid green;
+    border-radius: 10px;
+    padding: 10px;
+    height: fit-content;
+}
+
+.footer {
+    padding: 10px 0;
+    color: white;
+    background-color: #76b553;
+}
+
+.footer p{
+    max-width: 270px;
+    margin: 0 auto;
+}
+
+section.main-wraper {
+    margin: 20px 0;
+}
+
+ul.li-link li {
+    list-style-position: inside;
+    margin-left: 20px;
+}
+
+.content-slide .li-link li a {
+    text-decoration: none;
+    color: green;
+}
+
+.content-slide .li-link li{
+    padding-top: 10px;
+}
+
+.content-slide .li-link li a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+
+.content-slide .li-link li a:visited{
+    color: red;
+    text-decoration: underline;
+}
+
+textarea#address {
+    width: -webkit-fill-available;
+}
+
+.main-form h3 {
+    margin-bottom: 10px;
+}
+
+
+.wip {
+    max-width: 525px;
+    margin: 0 auto;
+    margin-top: 50px;
+    color: red;
+    font-size: 30px;
+}
+
+
